@@ -1,0 +1,65 @@
+@charset "utf-8" ;
+
+html {
+  font-size: 20px;
+}
+
+body {
+  font-size: 18px;
+
+}
+
+h1 {
+  font-size: 40px;
+  font-style: normal;
+  background-color: rgb(159, 191, 192);
+  text-decoration-line: none;
+
+}
+
+h2 {
+  background-color: rgb(205, 249, 234);
+}
+
+dl {
+  background-color: beige;
+}
+
+table {
+border:  2px solid black;
+width: 600px;
+height: 200px;
+}
+
+th {
+  border: 1px double black;
+}
+
+tr:first-child{
+background-color: rgb(223, 234, 218);
+}
+
+tr th:nth-of-type(1) {
+  background-color: rgb(228, 240, 222);
+
+}
+
+strong {
+  color: rgb(237, 4, 89);
+}
+
+main {
+  background-color: rgb(253, 246, 235);
+
+}
+
+aside {
+  background-color: rgb(234, 243, 245);
+}
+
+li {
+text-decoration: none;
+margin:  0 10px;
+padding:  0 8px;
+flex: 1 100px;
+}
